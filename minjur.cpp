@@ -14,7 +14,7 @@
 #include <utility>
 
 #include <osmium/geom/tile.hpp>
-#include <osmium/io/any_input.hpp>
+#include <osmium/io/pbf_input.hpp>
 #include <osmium/visitor.hpp>
 #include <osmium/tags/filter.hpp>
 #include <osmium/tags/taglist.hpp>
