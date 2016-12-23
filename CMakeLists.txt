@@ -23,13 +23,13 @@ include(common)
 include_directories(include)
 
 add_executable(minjur minjur.cpp json_feature.cpp json_handler.cpp)
-target_link_libraries(minjur ${Boost_LIBRARIES} ${OSMIUM_LIBRARIES})
+target_link_libraries(minjur ${OSMIUM_LIBRARIES})
 
 add_executable(minjur-generate-tilelist minjur-generate-tilelist.cpp)
-target_link_libraries(minjur-generate-tilelist ${Boost_LIBRARIES} ${OSMIUM_LIBRARIES})
+target_link_libraries(minjur-generate-tilelist ${OSMIUM_LIBRARIES})
 
 add_executable(minjur-mp minjur-mp.cpp json_feature.cpp json_handler.cpp)
-target_link_libraries(minjur-mp ${Boost_LIBRARIES} ${OSMIUM_LIBRARIES})
+target_link_libraries(minjur-mp ${OSMIUM_LIBRARIES})
 
 
 #-----------------------------------------------------------------------------
